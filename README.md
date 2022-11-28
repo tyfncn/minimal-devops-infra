@@ -10,7 +10,7 @@ This is a repository with some buzzwords in title that shows I do some cool staf
 * Docker installed [follow official docs for ubuntu](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script).
 * docker-compose installed (pip install docker-compose)
 
-# 1. Setting Up Gitea & Drone Server
+# Setting Up Gitea & Drone Server
 
 ```bash
 # Clone this repo
@@ -45,3 +45,5 @@ and go to `http://<your ip address>:81` and finish drone setup
 # Start drone docker runner service
 docker-compose up -d drone-runner
 ```
+
+**Congrats !! Your SCM and CI is now installed**
