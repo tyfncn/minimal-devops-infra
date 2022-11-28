@@ -13,6 +13,8 @@ please improve on backup and security if used for mission critical deployments.
 * docker-compose installed (pip install docker-compose)
 
 ## Setting Up Gitea & Drone Server
+Note: in url, .env and docker-compose.yml file don't leave `<>` characters in final. 
+Ex: `DRONE_RPC_SECRET=<put-a-random-string-or-bash-your-keyboard>` becomes `DRONE_RPC_SECRET=asdasdsadasdasdas`.
 
 ```bash
 # Clone this repo
