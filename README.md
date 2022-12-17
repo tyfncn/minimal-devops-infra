@@ -53,9 +53,9 @@ docker-compose up -d drone-runner
 
 **Congrats !! Your SCM and CI is now installed**
 
-## Next Steps
+## Possible Next Steps
 
 * import your application repo to gitea
 * Add `.drone.yml` for automated build & tests (examples: [python](https://docs.drone.io/pipeline/docker/examples/languages/python/), [go](https://docs.drone.io/pipeline/docker/examples/languages/golang/), )
-* Add a promotion pipeline to deploy same docker host
+* Add a promotion pipeline to deploy on same docker host
 * Add traefik to use domain names instead of ip adress
